@@ -7,7 +7,7 @@ This repository implements a very basic PSO algorithm for model hyperparameter t
 
 ## Benchmarks
 
-WIP
+Please look at the [experiments](Experiments.ipynb) notebook.
 
 ## Paper
 

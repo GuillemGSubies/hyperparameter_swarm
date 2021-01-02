@@ -130,7 +130,7 @@ class PSO:
                 else:
                     rand = self.rand.uniform
                 new_dist[param] = rand(lower, upper)
-                velocities[param] = rand(-abs(upper - lower), abs(upper - lower))
+                velocities[param] = rand(-upper - lower, upper - lower)
             particle = self.compare(Particle(new_dist, velocities))
             self.particles.append(particle)
 
